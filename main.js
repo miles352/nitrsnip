@@ -12,11 +12,11 @@ function handleEvent(packet) {
     }
 }
 
-const https = require('https');
+// const https = require('https');
 
-setInterval(() => {
-  https.get("https://nitr-snpr.onrender.com");
-}, 13 * 60 * 1000); // every 25 minutes
+// setInterval(() => {
+//   https.get("https://nitr-snpr.onrender.com");
+// }, 13 * 60 * 1000); // every 25 minutes
 
 let tokens = [];
 let clients = [];
